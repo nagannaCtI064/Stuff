@@ -1,0 +1,40 @@
+button{
+    align-content: space-around;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 5px;
+    text-align: center;
+    background-color: peru;
+    size: 20px;
+    border: 20px;
+    width:50%;
+    display: inline-block;
+    padding: 15px 32px;
+    margin: 4px 20px;
+    text-shadow: 30px;
+    text-transform: uppercase;
+
+}
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    border: 3px springgreen;
+}
+h1{
+    color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    font-size: medium;
+    background-color: blanchedalmond;
+    text-align: center;
+    text-shadow: black;
+    width: 46%;
+    shape-margin: 29px;
+    font-family:Bradley Hand ITC;
+    border-radius: 30px;
+    text-transform: uppercase;
+
+
+}

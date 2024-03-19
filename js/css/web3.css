@@ -1,0 +1,34 @@
+body{
+    background:linear-gradient(45deg,#a700ff,#4d19dd);
+}
+.p1{
+    color: yellow;
+    font-family: monospace;
+    font-size: 30px;
+    text-decoration: underline #333 ;
+    text: decoration thickness 8px; ;
+    font-display: block;
+
+}
+.p2{
+color: yellow;
+font-family: monospace;
+font-size: 20px;
+}
+.p3{
+        color: yellow;
+        font-family: monospace;
+        font-size: 20px;
+        text-decoration: none;
+        
+}
+.p3:hover{
+    color: red;
+}
+.p4{
+    color: yellow;
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+}

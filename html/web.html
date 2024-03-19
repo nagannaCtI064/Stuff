@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"href="web.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    </head>
+    <body>
+     <div class="c1">
+       <nav>
+        <img src="D:\visual studio\logo.png"class="logo">
+        <ul>
+            <li><a href="web.html">Home</a></li>
+            <li><a href="reg.html">Registration</a></li>
+            <li><a href="web2.html">Places</a></li>
+            <li><a href="web3.html">Contact us</a></li>
+            <li><a href="web4.html">About us</a></li>
+        </ul>
+        <a href="reg.html"class="btn">Get it</a>
+       </nav>
+       <div>
+        <h1 class="num1">Let's explore the world!</h1>
+        <p class="num2">Travel is an opportunity to read the world.  
+          On each page, you might find a new, taste, flavour, scent, vision or sound that will make your world a richer place. 
+          On each page, you might meet new people, form new relationships, find and discover new languages.
+           Of course, you will enjoy some ‘pages’ more than others – but even the parts you
+            don’t enjoy at the time may have a profound effect on you later in life
+        </p>
+        <h1 class="num3">Travellings over the world!</h1>
+        <ul type="disc"class="num4">
+          <li>Great Wall of China.</li>
+          <li>Chichén Itzá El Castillo, a Toltec-style pyramid, Chichén Itzá.</li>
+          <li>Petra. the Khaznah.</li>
+          <li>Machu Picchu.</li>
+          <li>Christ the Redeemer.</li>
+          <li>Colosseum.</li>
+          <li>Taj Mahal.</li>
+        </ul>
+
+
+       </div>
+
+       
+       
+     </div>
+     <div class="container">
+    
+<div class="swiper">
+   
+    <div class="swiper-wrapper">
+    
+      <div class="swiper-slide"><img src="D:\visual studio\wonder1.jfif"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder2.jfif"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder3.jfif"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder4.jfif"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder5.jfif"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder11.jpg"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder8.webp"></div>
+    </div>
+   
+    <div class="swiper-pagination"></div>
+  
+   
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+     </div>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+     <script>
+        const swiper = new Swiper('.swiper', {
+          autoplay:{
+            delay:3000,
+            disableOnInteraction:false,
+          },
+
+  loop: true,
+
+ 
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+ 
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+     </script>
+    </body>
+</html>

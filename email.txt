@@ -1,0 +1,23 @@
+var nodemailer=require('nodemailer')
+var transporter=nodemailer.createTransport({
+  service:'gmail',
+  auth:{
+    user:'nagannacti064.calactechnologies@gmail.com',
+    pass:'Naganan890@'
+  }
+})
+var option={
+  from:'nagannacti064.calactechnologies@gmail.com',
+  to:'taggedeley143@gmail.com',
+  subject:'testing a mail',
+  text:"its is use to send"
+}
+
+transporter.sendMail(option,(err,info)=>{
+  if(err){
+    console.log(err)
+  }
+  else{
+    console.log("email is sent"+info.response)
+  }
+})

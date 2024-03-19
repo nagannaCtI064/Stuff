@@ -1,0 +1,91 @@
+
+body{
+    background: linear-gradient(45deg,#a700ff,#4d19dd);
+}
+.c1{
+    font-family: monospace;
+    min-height: 100vh;
+    
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    color: #fff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+.logo{
+    width: 150px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn{
+    border: 2px solid #fff;
+    padding: 6px 25px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.container{
+    
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper.swiper-button-next,.swiper.swiper-button-prev{
+    color: #fff;
+}
+.swiper-wrapper{
+    width: 500px;
+    height: 500px;
+}
+.num1{
+    color: #fff;
+    font-size: 50px;
+    text-shadow: #4d19dd;
+    text-decoration: none;
+
+
+}
+.num1:hover{
+    color: red;
+
+}
+.num2{
+    font-size: 20px;
+}
+.num3{
+    color: #fff;
+    font-size: 30px;
+    text-shadow: #4d19dd;
+    text-decoration: none;
+
+}
+.num3:hover{
+    color: red;
+
+}
+.num4{
+    font-size: 20px;
+}

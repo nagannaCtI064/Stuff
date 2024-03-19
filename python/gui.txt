@@ -1,0 +1,9 @@
+import pyautogui
+import time
+import random
+while True:
+    mytuple=["hello","hi","vijay"]
+    time.sleep(2)
+    pyautogui.typewrite(random.choice(mytuple))
+    pyautogui.press("enter")
+    print(type(mytuple))
